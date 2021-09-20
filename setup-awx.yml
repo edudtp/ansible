@@ -10,5 +10,4 @@
 - hosts: awx
   become: yes
   roles:
-   - install-awx tags: install_awx
-    
+   - install-awx
