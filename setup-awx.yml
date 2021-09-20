@@ -1,6 +1,6 @@
 - hosts: awx
-  become: no
-  gather_facts: yes
+  become: yes
+  gather_facts: no
   pre_tasks:
     - name: 'Install o Python'
       raw: 'apt-get install -y python'
