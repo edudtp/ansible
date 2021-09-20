@@ -1,5 +1,5 @@
 - hosts: awx
-  become: yes
+  become: no
   gather_facts: yes
   pre_tasks:
     - name: 'Install o Python'
