@@ -10,5 +10,5 @@
 - hosts: awx
   become: yes
   roles:
-   - {role: install-awx, tags: ["install_awx"]}
+   - {install-awx, tags: ["install_awx"]}
     
